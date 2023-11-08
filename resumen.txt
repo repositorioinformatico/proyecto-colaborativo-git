@@ -1,0 +1,11 @@
+1) Haz fork del repo 
+2) Crea una rama con: git checkout -b funcion-nombre-alumno
+3) Edita main.py con el codigo de tu función
+4) Commit de tus cambios: 
+  git add main.py
+  git commit -m "Mis cambios en main.py"
+5) Subirlos a tu repo forkeado en github.com:
+  git push origin main/nombre-de-tu-rama
+6) Crear el PR (en la sección/pestaña de Pull Request).
+7) El resultado es que al repo del cual has forkeado le aparecerá 
+  la solicitud de PR.
