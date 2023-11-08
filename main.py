@@ -1,5 +1,9 @@
 import base64
 
+def base64_adria(stringToConvert):
+        str_b64 = base64.b64encode(bytes(stringToConvert, 'utf-8'))
+        return str_b64
+    
 def base16_JorgeG(input_string):
     hexadecimal = ''.join([f'{ord(char):02x}' for char in input_string])
     return hexadecimal
