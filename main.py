@@ -1,5 +1,8 @@
 import base64
 
+def base64_Miguel(texto):
+  texto_codificado = base64.b64encode(texto.encode('utf-8'))
+
 def base64_Adria(stringToConvert):
         str_b64 = base64.b64encode(bytes(stringToConvert, 'utf-8'))
         return str_b64
@@ -25,3 +28,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
