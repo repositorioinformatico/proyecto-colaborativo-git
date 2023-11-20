@@ -1,5 +1,10 @@
 import base64
 
+def base64_dani(texto):
+        bytes_texto = texto.encode('utf-8')
+        conversion_base64 = base64.b64encode(bytes_texto).decode('utf-8')
+        return conversion_base64
+
 def base64_Miguel(texto):
   texto_codificado = base64.b64encode(texto.encode('utf-8'))
 
